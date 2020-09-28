@@ -1,0 +1,83 @@
+.main_div{
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#video_place{
+  width:50%;
+  height:50%;
+  top:0%;
+  left:25%;
+  z-index: 1;
+  position: absolute;
+  background-color: blue;
+}
+
+#vid{
+  transform: rotateY(180deg);
+  width:100%;
+  height:100%;
+  bottom:0;
+  left:0%;
+  z-index: 1;
+  position: absolute;
+  background-color: blue;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#content{
+    top:50%;
+    left:25%;
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    z-index: 4;
+    color:#363232 ;
+    background-color:white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 38px;
+    border:1px solid black;
+}
+
+#capture_button{
+  top:60%;
+  left:45%;
+  position: absolute;
+  z-index: 4;
+  background-color: #F87C44;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+#canvas2{
+  height:70%;
+  width:70%;
+  top:0%;
+  left:15%;
+  position: absolute;
+  display: none;
+  z-index: -1;
+  transform: rotateY(180deg);
+}
+
+#img{
+  height:100px;
+  width:140px;
+  top:70%;
+  left:30%;
+  position: absolute;
+  display: none;
+  z-index: 4;
+}
